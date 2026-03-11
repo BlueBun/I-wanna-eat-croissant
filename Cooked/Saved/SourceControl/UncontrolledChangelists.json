@@ -1,0 +1,51 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"E:/Work/UE/Cooked/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"E:/Work/UE/Cooked/Content/Locomotion/Movement/M_Neutral_Stand_Idle_Loop.uasset",
+				"E:/Work/UE/Cooked/Content/Locomotion/Movement/M_Neutral_Run_Loop_B.uasset",
+				"E:/Work/UE/Cooked/Content/Locomotion/Movement/M_Neutral_Run_Loop_BL.uasset",
+				"E:/Work/UE/Cooked/Content/Locomotion/Movement/M_Neutral_Run_Loop_BR.uasset",
+				"E:/Work/UE/Cooked/Content/Locomotion/Movement/M_Neutral_Run_Loop_F.uasset",
+				"E:/Work/UE/Cooked/Content/Locomotion/Movement/M_Neutral_Run_Loop_FL.uasset",
+				"E:/Work/UE/Cooked/Content/Locomotion/Movement/M_Neutral_Run_Loop_FR.uasset",
+				"E:/Work/UE/Cooked/Content/Locomotion/Movement/M_Neutral_Run_Loop_LL.uasset",
+				"E:/Work/UE/Cooked/Content/Locomotion/Movement/M_Neutral_Run_Loop_LR.uasset",
+				"E:/Work/UE/Cooked/Content/Locomotion/Movement/M_Neutral_Run_Loop_RL.uasset",
+				"E:/Work/UE/Cooked/Content/Locomotion/Movement/StrafeMovement.uasset",
+				"E:/Work/UE/Cooked/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
+				"E:/Work/UE/Cooked/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"E:/Work/UE/Cooked/Content/ThirdPerson/Input/Actions/IA_TargetLock.uasset",
+				"E:/Work/UE/Cooked/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"E:/Work/UE/Cooked/Content/Blueprints/BP_Combat.uasset",
+				"E:/Work/UE/Cooked/Content/UI/WBP_TargetLock.uasset",
+				"E:/Work/UE/Cooked/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/JL/CAQDLX2A3PT7SMHMVKH4AA.uasset",
+				"E:/Work/UE/Cooked/Content/Yes/Pointing.uasset",
+				"E:/Work/UE/Cooked/Content/Blueprints/BP_TargetLock.uasset",
+				"E:/Work/UE/Cooked/Content/Locomotion/Combat/SwordAttackCombo.uasset",
+				"E:/Work/UE/Cooked/Content/Locomotion/Combat/SwordAttackCombo_Montage.uasset",
+				"E:/Work/UE/Cooked/Content/ThirdPerson/Input/Actions/IA_Attack.uasset",
+				"E:/Work/UE/Cooked/Content/Yes/Sword/Sword_uitlbiaga_High.uasset",
+				"E:/Work/UE/Cooked/Content/Yes/Sword/Aset_other_various_M_uitlbiaga_LOD0.uasset",
+				"E:/Work/UE/Cooked/Content/Yes/Sword/FbxScene_Sword_uitlbiaga_High.uasset",
+				"E:/Work/UE/Cooked/Content/Yes/Sword/MatID_1.uasset",
+				"E:/Work/UE/Cooked/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/15/269RP1JY6HSSH8974B9JXO.uasset",
+				"E:/Work/UE/Cooked/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset",
+				"E:/Work/UE/Cooked/Content/Blueprints/BP_NotifyDamage.uasset",
+				"E:/Work/UE/Cooked/Content/Blueprints/BP_Damage.uasset",
+				"E:/Work/UE/Cooked/Content/Blueprints/BP_Stats.uasset",
+				"E:/Work/UE/Cooked/Content/Blueprints/E_Stats.uasset",
+				"E:/Work/UE/Cooked/Content/Locomotion/Combat/HitReact.uasset",
+				"E:/Work/UE/Cooked/Content/Locomotion/Combat/HitReact_Montage.uasset",
+				"E:/Work/UE/Cooked/Content/UI/WBP_PlayerHP.uasset",
+				"E:/Work/UE/Cooked/Content/UI/WBP_HUD.uasset",
+				"E:/Work/UE/Cooked/Content/UI/WBP_EnemyHP.uasset",
+				"E:/Work/UE/Cooked/Content/ThirdPerson/Input/Actions/TargetLock.uasset"
+			]
+		}
+	]
+}
