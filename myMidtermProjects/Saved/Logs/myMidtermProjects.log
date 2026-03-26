@@ -4995,3 +4995,438 @@ Script Stack (0 frames) :
 [2026.03.26-09.29.36:606][977]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 15.4 sec)
 [2026.03.26-09.29.36:607][977]AssetCheck: New page: Asset Save: BossState
 [2026.03.26-09.29.36:607][977]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/BossState.BossState
+[2026.03.26-09.30.25:424][220]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6138.025879
+[2026.03.26-09.30.26:425][223]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.26-09.30.26:425][223]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6138.692383, Update Interval: 322.099670
+[2026.03.26-09.30.37:400][255]LogWindowsTextInputMethodSystem: Activated input method: Thai (Thailand) - (Keyboard).
+[2026.03.26-09.30.37:400][255]LogWindowsTextInputMethodSystem: Activated input method: Thai (Thailand) - (Keyboard).
+[2026.03.26-09.30.41:780][664]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.26-09.30.41:787][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.26-09.30.41:787][664]PIE: New page: PIE session: BossState (26 มี.ค. 2569 23:30:41)
+[2026.03.26-09.30.41:808][664]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BossState
+[2026.03.26-09.30.41:820][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011586s)
+[2026.03.26-09.30.41:820][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BossState.BossState to /Game/Level/UEDPIE_0_BossState.BossState (0.011630s)
+[2026.03.26-09.30.41:834][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.03.26-09.30.41:835][664]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.26-09.30.41:835][664]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.26-09.30.41:835][664]LogAIModule: Creating AISystem for world BossState
+[2026.03.26-09.30.41:836][664]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2026.03.26-09.30.41:836][664]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2026.03.26-09.30.41:836][664]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.26-09.30.41:836][664]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.26-09.30.41:836][664]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.26-09.30.41:836][664]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.26-09.30.41:836][664]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.26-09.30.41:836][664]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.26-09.30.41:836][664]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.26-09.30.41:836][664]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.26-09.30.41:836][664]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.26-09.30.41:836][664]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.26-09.30.41:836][664]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.26-09.30.41:838][664]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.26-09.30.41:858][664]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2026.03.26-09.30.41:858][664]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.26-09.30.41:858][664]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.26-09.30.41:858][664]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.26-09.30.41:858][664]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2026.03.26-09.30.41:858][664]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2026.03.26-09.30.41:860][664]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2026.03.26-09.30.41:860][664]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2026.03.26-09.30.41:860][664]LogInit: FAudioDevice initialized with ID 21.
+[2026.03.26-09.30.41:860][664]LogAudio: Display: Audio Device (ID: 21) registered with world 'BossState'.
+[2026.03.26-09.30.41:860][664]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2026.03.26-09.30.41:863][664]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.26-09.30.41:869][664]LogWorld: Bringing World /Game/Level/UEDPIE_0_BossState.BossState up for play (max tick rate 0) at 2026.03.26-16.30.41
+[2026.03.26-09.30.41:869][664]LogWorld: Bringing up level for play took: 0.005227
+[2026.03.26-09.30.41:871][664]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2026.03.26-09.30.41:875][664]PIE: Server logged in
+[2026.03.26-09.30.41:876][664]PIE: Play in editor total start time 0.089 seconds.
+[2026.03.26-09.30.54:318][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-09.30.54:318][830]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_BossState
+[2026.03.26-09.30.54:318][830]LogWorld: UWorld::CleanupWorld for BossState, bSessionEnded=true, bCleanupResources=true
+[2026.03.26-09.30.54:319][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-09.30.54:323][830]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.26-09.30.54:329][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-09.30.54:339][830]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.26-09.30.54:339][830]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2026.03.26-09.30.54:339][830]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2026.03.26-09.30.54:341][830]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2026.03.26-09.30.54:344][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-09.30.54:350][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.03.26-09.30.54:411][831]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2026.03.26-09.30.55:199][909]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.26-09.30.55:206][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.26-09.30.55:206][909]PIE: New page: PIE session: BossState (26 มี.ค. 2569 23:30:55)
+[2026.03.26-09.30.55:228][909]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BossState
+[2026.03.26-09.30.55:240][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011836s)
+[2026.03.26-09.30.55:240][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BossState.BossState to /Game/Level/UEDPIE_0_BossState.BossState (0.011890s)
+[2026.03.26-09.30.55:254][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.03.26-09.30.55:256][909]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.26-09.30.55:256][909]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.26-09.30.55:257][909]LogAIModule: Creating AISystem for world BossState
+[2026.03.26-09.30.55:257][909]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2026.03.26-09.30.55:257][909]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2026.03.26-09.30.55:257][909]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.26-09.30.55:257][909]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.26-09.30.55:257][909]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.26-09.30.55:257][909]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.26-09.30.55:257][909]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.26-09.30.55:257][909]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.26-09.30.55:257][909]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.26-09.30.55:257][909]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.26-09.30.55:257][909]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.26-09.30.55:257][909]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.26-09.30.55:258][909]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.26-09.30.55:259][909]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.26-09.30.55:276][909]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2026.03.26-09.30.55:276][909]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.26-09.30.55:276][909]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.26-09.30.55:276][909]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.26-09.30.55:276][909]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2026.03.26-09.30.55:276][909]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2026.03.26-09.30.55:279][909]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2026.03.26-09.30.55:279][909]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2026.03.26-09.30.55:279][909]LogInit: FAudioDevice initialized with ID 22.
+[2026.03.26-09.30.55:279][909]LogAudio: Display: Audio Device (ID: 22) registered with world 'BossState'.
+[2026.03.26-09.30.55:279][909]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2026.03.26-09.30.55:282][909]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.26-09.30.55:286][909]LogWorld: Bringing World /Game/Level/UEDPIE_0_BossState.BossState up for play (max tick rate 0) at 2026.03.26-16.30.55
+[2026.03.26-09.30.55:287][909]LogWorld: Bringing up level for play took: 0.005028
+[2026.03.26-09.30.55:288][909]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2026.03.26-09.30.55:293][909]PIE: Server logged in
+[2026.03.26-09.30.55:294][909]PIE: Play in editor total start time 0.087 seconds.
+[2026.03.26-09.31.24:714][662]LogNet: Browse: /Game/Level/World
+[2026.03.26-09.31.24:715][662]LogLoad: LoadMap: /Game/Level/World
+[2026.03.26-09.31.24:715][662]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_BossState
+[2026.03.26-09.31.24:715][662]LogWorld: UWorld::CleanupWorld for BossState, bSessionEnded=true, bCleanupResources=true
+[2026.03.26-09.31.24:717][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-09.31.24:761][662]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.26-09.31.24:764][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.03.26-09.31.24:842][662]LogAudio: Display: Audio Device (ID: 22) registered with world 'World'.
+[2026.03.26-09.31.24:842][662]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.26-09.31.24:842][662]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.26-09.31.24:843][662]LogAIModule: Creating AISystem for world World
+[2026.03.26-09.31.24:843][662]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2026.03.26-09.31.24:843][662]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.26-09.31.24:910][662]LogWorld: Bringing World /Game/Level/UEDPIE_0_World.World up for play (max tick rate 0) at 2026.03.26-16.31.24
+[2026.03.26-09.31.24:911][662]LogWorld: Bringing up level for play took: 0.067636
+[2026.03.26-09.31.24:916][662]LogLoad: Took 0.200841 seconds to LoadMap(/Game/Level/World)
+[2026.03.26-09.32.01:647][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-09.32.01:647][843]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_World
+[2026.03.26-09.32.01:648][843]LogWorld: UWorld::CleanupWorld for World, bSessionEnded=true, bCleanupResources=true
+[2026.03.26-09.32.01:651][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-09.32.01:654][843]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.26-09.32.01:660][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-09.32.01:675][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-09.32.01:675][843]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2026.03.26-09.32.01:675][843]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2026.03.26-09.32.01:678][843]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2026.03.26-09.32.01:688][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2026.03.26-09.32.01:751][844]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2026.03.26-09.32.43:187][418]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Mesh/NeonLineMesh/NL_1.NL_1
+[2026.03.26-09.32.43:187][418]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Mesh/NeonLineMesh/NL_1.NL_1
+[2026.03.26-09.32.43:188][418]LogActorFactory: Actor Factory spawned StaticMesh /Game/Mesh/NeonLineMesh/NL_1.NL_1 as actor: StaticMeshActor /Game/Level/BossState.BossState:PersistentLevel.StaticMeshActor_3
+[2026.03.26-09.32.43:799][489]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Mesh/NeonLineMesh/NL_1.NL_1
+[2026.03.26-09.32.43:799][489]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Mesh/NeonLineMesh/NL_1.NL_1
+[2026.03.26-09.32.43:801][489]LogActorFactory: Actor Factory spawned StaticMesh /Game/Mesh/NeonLineMesh/NL_1.NL_1 as actor: StaticMeshActor /Game/Level/BossState.BossState:PersistentLevel.StaticMeshActor_14
+[2026.03.26-09.34.32:320][177]Cmd: DELETE
+[2026.03.26-09.34.32:320][177]Cmd: ACTOR DELETE
+[2026.03.26-09.34.32:324][177]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.03.26-09.34.32:339][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.03.26-09.34.32:343][177]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2026.03.26-09.34.42:425][325]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2026.03.26-09.34.42:425][325]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2026.03.26-09.34.55:238][703]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-09.34.55:313][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2026.03.26-09.34.55:355][703]LogSavePackage: Moving output files for package: /Game/Level/BossState
+[2026.03.26-09.34.55:355][703]LogSavePackage: Moving '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Saved/BossState9D819B5D4A8449A700B31DA2DB2AC99B.tmp' to '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Content/Level/BossState.umap'
+[2026.03.26-09.34.55:363][703]LogFileHelpers: Saving map 'BossState' took 0.081
+[2026.03.26-09.34.55:374][703]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 15.5 sec)
+[2026.03.26-09.34.55:376][703]AssetCheck: New page: Asset Save: BossState
+[2026.03.26-09.34.55:376][703]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/BossState.BossState
+[2026.03.26-09.35.14:271][584]Cmd: DELETE
+[2026.03.26-09.35.14:271][584]Cmd: ACTOR DELETE
+[2026.03.26-09.35.14:274][584]LogEditorActor: Deleted Actor: PointLight
+[2026.03.26-09.35.14:290][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2026.03.26-09.35.14:295][584]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2026.03.26-09.35.36:089][838]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.26-09.35.36:097][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.26-09.35.36:097][838]PIE: New page: PIE session: BossState (26 มี.ค. 2569 23:35:36)
+[2026.03.26-09.35.36:097][838]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BossState
+[2026.03.26-09.35.36:109][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012013s)
+[2026.03.26-09.35.36:109][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BossState.BossState to /Game/Level/UEDPIE_0_BossState.BossState (0.012055s)
+[2026.03.26-09.35.36:122][838]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.03.26-09.35.36:124][838]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.26-09.35.36:124][838]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.26-09.35.36:124][838]LogAIModule: Creating AISystem for world BossState
+[2026.03.26-09.35.36:125][838]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2026.03.26-09.35.36:125][838]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2026.03.26-09.35.36:125][838]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.26-09.35.36:125][838]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.26-09.35.36:125][838]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.26-09.35.36:125][838]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.26-09.35.36:125][838]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.26-09.35.36:125][838]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.26-09.35.36:125][838]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.26-09.35.36:125][838]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.26-09.35.36:125][838]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.26-09.35.36:125][838]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.26-09.35.36:125][838]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.26-09.35.36:127][838]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.26-09.35.36:145][838]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2026.03.26-09.35.36:145][838]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.26-09.35.36:145][838]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.26-09.35.36:145][838]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.26-09.35.36:146][838]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2026.03.26-09.35.36:146][838]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2026.03.26-09.35.36:147][838]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2026.03.26-09.35.36:147][838]LogInit: FAudioDevice initialized with ID 23.
+[2026.03.26-09.35.36:147][838]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2026.03.26-09.35.36:147][838]LogAudio: Display: Audio Device (ID: 23) registered with world 'BossState'.
+[2026.03.26-09.35.36:147][838]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2026.03.26-09.35.36:150][838]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.26-09.35.36:155][838]LogWorld: Bringing World /Game/Level/UEDPIE_0_BossState.BossState up for play (max tick rate 0) at 2026.03.26-16.35.36
+[2026.03.26-09.35.36:156][838]LogWorld: Bringing up level for play took: 0.004644
+[2026.03.26-09.35.36:157][838]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2026.03.26-09.35.36:161][838]PIE: Server logged in
+[2026.03.26-09.35.36:162][838]PIE: Play in editor total start time 0.066 seconds.
+[2026.03.26-09.35.57:675][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-09.35.57:675][852]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_BossState
+[2026.03.26-09.35.57:675][852]LogWorld: UWorld::CleanupWorld for BossState, bSessionEnded=true, bCleanupResources=true
+[2026.03.26-09.35.57:676][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-09.35.57:679][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.26-09.35.57:684][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-09.35.57:694][852]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.26-09.35.57:694][852]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2026.03.26-09.35.57:694][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2026.03.26-09.35.57:696][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2026.03.26-09.35.57:700][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-09.35.57:704][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.03.26-09.35.57:755][853]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2026.03.26-09.36.16:886][667]LogSlate: Window 'Color Picker' being destroyed
+[2026.03.26-09.36.20:114][997]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-09.36.20:195][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.03.26-09.36.20:236][997]LogSavePackage: Moving output files for package: /Game/Level/BossState
+[2026.03.26-09.36.20:236][997]LogSavePackage: Moving '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Saved/BossState1052A4FA416DB5F46B9395A1E1EFE2B0.tmp' to '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Content/Level/BossState.umap'
+[2026.03.26-09.36.20:243][997]LogFileHelpers: Saving map 'BossState' took 0.080
+[2026.03.26-09.36.20:255][997]LogFileHelpers: InternalPromptForCheckoutAndSave took 140 ms (total: 15.6 sec)
+[2026.03.26-09.36.20:258][997]AssetCheck: New page: Asset Save: BossState
+[2026.03.26-09.36.20:258][997]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/BossState.BossState
+[2026.03.26-09.36.25:755][479]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6498.360352
+[2026.03.26-09.36.26:095][514]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.26-09.36.26:095][514]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6498.687988, Update Interval: 323.542603
+[2026.03.26-09.36.32:330][101]LogClass: Warning: Short type name "BossState_C_4" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2026.03.26-09.36.44:572][111]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-09.36.44:664][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.03.26-09.36.44:705][111]LogSavePackage: Moving output files for package: /Game/Level/BossState
+[2026.03.26-09.36.44:706][111]LogSavePackage: Moving '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Saved/BossStateC4FC665043692A4EB562EA8829DA9A0D.tmp' to '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Content/Level/BossState.umap'
+[2026.03.26-09.36.44:713][111]LogFileHelpers: Saving map 'BossState' took 0.081
+[2026.03.26-09.36.44:719][111]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 15.8 sec)
+[2026.03.26-09.36.44:720][111]AssetCheck: New page: Asset Save: BossState
+[2026.03.26-09.36.44:720][111]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/BossState.BossState
+[2026.03.26-09.36.47:498][323]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Level/BossState.BossState:PersistentLevel.BossState
+[2026.03.26-09.36.47:498][323]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.26-09.36.47:498][323]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.26-09.36.58:975][957]LogViewport: Scene viewport resized to 593x574, mode Windowed.
+[2026.03.26-09.37.25:451][900]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-09.37.25:512][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.03.26-09.37.25:553][900]LogSavePackage: Moving output files for package: /Game/Level/BossState
+[2026.03.26-09.37.25:553][900]LogSavePackage: Moving '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Saved/BossStateE7F3A0DE423A942BDDF20A8DA32FA31E.tmp' to '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Content/Level/BossState.umap'
+[2026.03.26-09.37.25:561][900]LogFileHelpers: Saving map 'BossState' took 0.082
+[2026.03.26-09.37.25:568][900]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 15.9 sec)
+[2026.03.26-09.37.25:569][900]AssetCheck: New page: Asset Save: BossState
+[2026.03.26-09.37.25:569][900]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/BossState.BossState
+[2026.03.26-09.37.25:891][924]BlueprintLog: New page: Compile BossState
+[2026.03.26-09.37.25:922][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.03.26-09.37.27:896][109]LogViewport: Scene viewport resized to 1206x578, mode Windowed.
+[2026.03.26-09.37.31:775][516]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-09.37.31:841][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.03.26-09.37.31:882][516]LogSavePackage: Moving output files for package: /Game/Level/BossState
+[2026.03.26-09.37.31:882][516]LogSavePackage: Moving '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Saved/BossStateF16F53F042E7423A026B0682E80D0541.tmp' to '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Content/Level/BossState.umap'
+[2026.03.26-09.37.31:890][516]LogFileHelpers: Saving map 'BossState' took 0.080
+[2026.03.26-09.37.31:897][516]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 16.0 sec)
+[2026.03.26-09.37.31:900][516]AssetCheck: New page: Asset Save: BossState
+[2026.03.26-09.37.31:900][516]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/BossState.BossState
+[2026.03.26-09.37.32:494][578]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.26-09.37.32:502][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.26-09.37.32:502][578]PIE: New page: PIE session: BossState (26 มี.ค. 2569 23:37:32)
+[2026.03.26-09.37.32:532][578]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BossState
+[2026.03.26-09.37.32:545][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012040s)
+[2026.03.26-09.37.32:545][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BossState.BossState to /Game/Level/UEDPIE_0_BossState.BossState (0.012085s)
+[2026.03.26-09.37.32:557][578]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.03.26-09.37.32:558][578]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.26-09.37.32:558][578]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.26-09.37.32:558][578]LogAIModule: Creating AISystem for world BossState
+[2026.03.26-09.37.32:559][578]LogPlayLevel: PIE: World Init took: (0.000876s)
+[2026.03.26-09.37.32:559][578]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2026.03.26-09.37.32:559][578]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.26-09.37.32:559][578]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.26-09.37.32:559][578]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.26-09.37.32:559][578]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.26-09.37.32:559][578]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.26-09.37.32:559][578]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.26-09.37.32:559][578]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.26-09.37.32:559][578]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.26-09.37.32:559][578]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.26-09.37.32:559][578]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.26-09.37.32:559][578]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.26-09.37.32:561][578]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.26-09.37.32:579][578]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2026.03.26-09.37.32:579][578]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.26-09.37.32:579][578]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.26-09.37.32:579][578]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.26-09.37.32:580][578]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2026.03.26-09.37.32:580][578]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2026.03.26-09.37.32:581][578]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2026.03.26-09.37.32:581][578]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2026.03.26-09.37.32:581][578]LogInit: FAudioDevice initialized with ID 24.
+[2026.03.26-09.37.32:581][578]LogAudio: Display: Audio Device (ID: 24) registered with world 'BossState'.
+[2026.03.26-09.37.32:581][578]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2026.03.26-09.37.32:584][578]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.26-09.37.32:589][578]LogWorld: Bringing World /Game/Level/UEDPIE_0_BossState.BossState up for play (max tick rate 0) at 2026.03.26-16.37.32
+[2026.03.26-09.37.32:589][578]LogWorld: Bringing up level for play took: 0.004913
+[2026.03.26-09.37.32:591][578]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2026.03.26-09.37.32:596][578]PIE: Server logged in
+[2026.03.26-09.37.32:596][578]PIE: Play in editor total start time 0.094 seconds.
+[2026.03.26-09.37.57:793][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-09.37.57:793][922]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_BossState
+[2026.03.26-09.37.57:793][922]LogWorld: UWorld::CleanupWorld for BossState, bSessionEnded=true, bCleanupResources=true
+[2026.03.26-09.37.57:793][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-09.37.57:797][922]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.26-09.37.57:803][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-09.37.57:816][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-09.37.57:817][922]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2026.03.26-09.37.57:817][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2026.03.26-09.37.57:819][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2026.03.26-09.37.57:826][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.03.26-09.37.57:877][923]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2026.03.26-09.38.12:723][504]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-09.38.12:809][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2026.03.26-09.38.12:850][504]LogSavePackage: Moving output files for package: /Game/Level/BossState
+[2026.03.26-09.38.12:850][504]LogSavePackage: Moving '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Saved/BossState55C3B06645458F652D92FF86424D5E18.tmp' to '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Content/Level/BossState.umap'
+[2026.03.26-09.38.12:859][504]LogFileHelpers: Saving map 'BossState' took 0.083
+[2026.03.26-09.38.12:868][504]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 16.2 sec)
+[2026.03.26-09.38.12:870][504]AssetCheck: New page: Asset Save: BossState
+[2026.03.26-09.38.12:870][504]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/BossState.BossState
+[2026.03.26-09.38.15:590][760]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-09.38.15:655][760]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.03.26-09.38.15:695][760]LogSavePackage: Moving output files for package: /Game/Level/BossState
+[2026.03.26-09.38.15:695][760]LogSavePackage: Moving '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Saved/BossState79FB409B4A1BC12E046BA9A974A49924.tmp' to '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Content/Level/BossState.umap'
+[2026.03.26-09.38.15:702][760]LogFileHelpers: Saving map 'BossState' took 0.078
+[2026.03.26-09.38.15:714][760]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 16.3 sec)
+[2026.03.26-09.38.15:717][760]AssetCheck: New page: Asset Save: BossState
+[2026.03.26-09.38.15:717][760]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/BossState.BossState
+[2026.03.26-09.38.17:157][912]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-09.38.17:227][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.03.26-09.38.17:270][912]LogSavePackage: Moving output files for package: /Game/Level/BossState
+[2026.03.26-09.38.17:270][912]LogSavePackage: Moving '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Saved/BossState952096A943FC59425383168B062BBF2F.tmp' to '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Content/Level/BossState.umap'
+[2026.03.26-09.38.17:279][912]LogFileHelpers: Saving map 'BossState' took 0.083
+[2026.03.26-09.38.17:292][912]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 16.4 sec)
+[2026.03.26-09.38.17:294][912]AssetCheck: New page: Asset Save: BossState
+[2026.03.26-09.38.17:294][912]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/BossState.BossState
+[2026.03.26-09.38.22:148][404]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-09.38.22:216][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.03.26-09.38.22:257][404]LogSavePackage: Moving output files for package: /Game/Level/BossState
+[2026.03.26-09.38.22:258][404]LogSavePackage: Moving '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Saved/BossStateE2087AE040C5105D3EFE44B5B28812E0.tmp' to '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Content/Level/BossState.umap'
+[2026.03.26-09.38.22:265][404]LogFileHelpers: Saving map 'BossState' took 0.080
+[2026.03.26-09.38.22:277][404]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 16.6 sec)
+[2026.03.26-09.38.22:279][404]AssetCheck: New page: Asset Save: BossState
+[2026.03.26-09.38.22:279][404]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/BossState.BossState
+[2026.03.26-09.38.24:146][619]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-09.38.24:220][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2026.03.26-09.38.24:261][619]LogSavePackage: Moving output files for package: /Game/Level/BossState
+[2026.03.26-09.38.24:261][619]LogSavePackage: Moving '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Saved/BossStateE43A7332440372A06D835D96FDAD69E7.tmp' to '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Content/Level/BossState.umap'
+[2026.03.26-09.38.24:268][619]LogFileHelpers: Saving map 'BossState' took 0.080
+[2026.03.26-09.38.24:276][619]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 16.7 sec)
+[2026.03.26-09.38.24:278][619]AssetCheck: New page: Asset Save: BossState
+[2026.03.26-09.38.24:278][619]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/BossState.BossState
+[2026.03.26-09.38.24:717][662]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.26-09.38.24:725][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.26-09.38.24:725][662]PIE: New page: PIE session: BossState (26 มี.ค. 2569 23:38:24)
+[2026.03.26-09.38.24:762][662]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BossState
+[2026.03.26-09.38.24:774][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011917s)
+[2026.03.26-09.38.24:774][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BossState.BossState to /Game/Level/UEDPIE_0_BossState.BossState (0.011960s)
+[2026.03.26-09.38.24:788][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.03.26-09.38.24:789][662]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.03.26-09.38.24:789][662]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.03.26-09.38.24:790][662]LogAIModule: Creating AISystem for world BossState
+[2026.03.26-09.38.24:790][662]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2026.03.26-09.38.24:790][662]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2026.03.26-09.38.24:790][662]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.26-09.38.24:790][662]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.26-09.38.24:790][662]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.26-09.38.24:790][662]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.26-09.38.24:790][662]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.26-09.38.24:790][662]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.26-09.38.24:790][662]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.26-09.38.24:790][662]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.26-09.38.24:790][662]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.26-09.38.24:790][662]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.26-09.38.24:790][662]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.26-09.38.24:792][662]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.26-09.38.24:810][662]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2026.03.26-09.38.24:810][662]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.26-09.38.24:810][662]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.26-09.38.24:810][662]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.26-09.38.24:811][662]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2026.03.26-09.38.24:811][662]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2026.03.26-09.38.24:813][662]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2026.03.26-09.38.24:813][662]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2026.03.26-09.38.24:813][662]LogInit: FAudioDevice initialized with ID 25.
+[2026.03.26-09.38.24:813][662]LogAudio: Display: Audio Device (ID: 25) registered with world 'BossState'.
+[2026.03.26-09.38.24:813][662]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2026.03.26-09.38.24:816][662]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.26-09.38.24:822][662]LogWorld: Bringing World /Game/Level/UEDPIE_0_BossState.BossState up for play (max tick rate 0) at 2026.03.26-16.38.24
+[2026.03.26-09.38.24:822][662]LogWorld: Bringing up level for play took: 0.005094
+[2026.03.26-09.38.24:824][662]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2026.03.26-09.38.24:828][662]PIE: Server logged in
+[2026.03.26-09.38.24:829][662]PIE: Play in editor total start time 0.105 seconds.
+[2026.03.26-09.38.52:972][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-09.38.52:972][314]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_BossState
+[2026.03.26-09.38.52:972][314]LogWorld: UWorld::CleanupWorld for BossState, bSessionEnded=true, bCleanupResources=true
+[2026.03.26-09.38.52:972][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-09.38.52:976][314]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.26-09.38.52:981][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-09.38.52:994][314]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.26-09.38.52:994][314]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2026.03.26-09.38.52:994][314]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2026.03.26-09.38.52:995][314]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2026.03.26-09.38.52:999][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-09.38.53:003][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2026.03.26-09.38.53:054][315]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2026.03.26-09.39.32:504][436]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-09.39.32:571][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.03.26-09.39.32:612][436]LogSavePackage: Moving output files for package: /Game/Level/BossState
+[2026.03.26-09.39.32:613][436]LogSavePackage: Moving '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Saved/BossStateF0373BEB4BDB04CA3DBD1ABD588ACBF1.tmp' to '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Content/Level/BossState.umap'
+[2026.03.26-09.39.32:620][436]LogFileHelpers: Saving map 'BossState' took 0.082
+[2026.03.26-09.39.32:631][436]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 16.8 sec)
+[2026.03.26-09.39.32:634][436]AssetCheck: New page: Asset Save: BossState
+[2026.03.26-09.39.32:634][436]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/BossState.BossState
+[2026.03.26-09.39.42:019][520]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-09.39.42:092][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2026.03.26-09.39.42:132][520]LogSavePackage: Moving output files for package: /Game/Level/BossState
+[2026.03.26-09.39.42:132][520]LogSavePackage: Moving '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Saved/BossState2B0990EF4B74C3FF5EE5B5AA083A6E8F.tmp' to '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Content/Level/BossState.umap'
+[2026.03.26-09.39.42:139][520]LogFileHelpers: Saving map 'BossState' took 0.080
+[2026.03.26-09.39.42:151][520]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 16.9 sec)
+[2026.03.26-09.39.42:153][520]AssetCheck: New page: Asset Save: BossState
+[2026.03.26-09.39.42:153][520]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/BossState.BossState
+[2026.03.26-09.40.05:613][172]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-09.40.05:682][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2026.03.26-09.40.05:723][172]LogSavePackage: Moving output files for package: /Game/Level/BossState
+[2026.03.26-09.40.05:724][172]LogSavePackage: Moving '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Saved/BossStateF24C489640A8E6E0594D29BFF61D2521.tmp' to '../../../../../GamePJ/UEFinal69/I-wanna-eat-croissant/myMidtermProjects/Content/Level/BossState.umap'
+[2026.03.26-09.40.05:732][172]LogFileHelpers: Saving map 'BossState' took 0.081
+[2026.03.26-09.40.05:742][172]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 17.1 sec)
+[2026.03.26-09.40.05:744][172]AssetCheck: New page: Asset Save: BossState
+[2026.03.26-09.40.05:744][172]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/BossState.BossState
